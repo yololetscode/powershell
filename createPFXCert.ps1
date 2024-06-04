@@ -16,4 +16,4 @@ $pfxContent = Export-PfxCertificate -Cert $cert -Password $securePassword -FileP
 Write-Host "PFX certificate created at: $pfxOutputPath"
 
 
-##.Parameter call example:      \CreatePfxFromCer.ps1 -password "your_password" -cerPath "C:\path\to\certificate.cer" -pfxOutputPath "C:\path\to\output.pfx" 
+## Parameter call example:      \CreatePfxFromCer.ps1 -password "your_password" -cerPath "C:\path\to\certificate.cer" -pfxOutputPath "C:\path\to\output.pfx" 
